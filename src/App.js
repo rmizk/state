@@ -6,9 +6,9 @@ import Addtask from "./comp/Addtask";
 export default class App extends Component {
   state = {
     todos: [
-      { id: Math.random(), action: "react props", isdone: "true" },
-      { id: Math.random(), action: "react state", isdone: "false" },
-      { id: Math.random(), action: "react hooks", isdone: "true" },
+      { id: Math.random(), action: "react props", isdone: true },
+      { id: Math.random(), action: "react state", isdone: false },
+      { id: Math.random(), action: "react hooks", isdone: true },
     ],
   };
 
